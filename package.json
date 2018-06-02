@@ -1,0 +1,34 @@
+{
+  "name": "eswc-2018-lorc",
+  "version": "0.0.1",
+  "description": "ESWC 2018 LORC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csarven/eswc-2018-lorc.git"
+  },
+  "keywords": [
+    "annotations",
+    "eswc-2018",
+    "ldn",
+    "linked-research",
+    "lorc"
+  ],
+  "author": {
+    "name": "Sarven Capadisli",
+    "url": "http://csarven.ca/#i"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/csarven/eswc-2018-lorc/issues"
+  },
+  "homepage": "https://github.com/csarven/eswc-2018-lorc",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mayktso": "git://github.com/csarven/mayktso.git#master",
+    "tidy-html5": "^0.1.1"
+  }
+}
