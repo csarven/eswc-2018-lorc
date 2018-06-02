@@ -190,7 +190,7 @@ function getArticleReviews(articles) {
                     var motivatedBy = annotation.oamotivatedBy;
                     var motivatedByLabel = motivatedBy.substr(motivatedBy.lastIndexOf('#') + 1);
                     var datetime = getDateTimeISO();
-                    var asactor = 'https://github.com/csarven/eswc-lorc';
+                    var asactor = 'https://github.com/csarven/eswc-2018-lorc';
 
                     notifications[a] = `<!DOCTYPE html>
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
